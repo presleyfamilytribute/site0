@@ -15,10 +15,10 @@ Ensure you have the following installed on your system:
 
 ```sh
 # Clone the repository
-git clone https://github.com/presleyfamilytribute/site
+git clone https://github.com/presleyfamilytribute/test-site
 
 # Navigate to the project directory
-cd site
+cd test-site
 
 # Install the required dependencies
 npm install
@@ -46,29 +46,6 @@ This project is built using the following technologies:
 - **Responsive Design:** Fully responsive layout for seamless viewing on all devices.
 - **Modern UI:** Built with Tailwind CSS and shadcn/ui for a clean and accessible design.
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix:
-   ```sh
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```sh
-   git commit -m "Add your message here"
-   ```
-4. Push to your branch:
-   ```sh
-   git push origin feature-name
-   ```
-5. Submit a pull request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
-
-## Contact
-
-For questions or feedback, please contact the repository owner at [your-email@example.com].

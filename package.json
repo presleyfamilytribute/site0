@@ -12,11 +12,9 @@
   "dependencies": {
     "zod": "^3.23.8",
     "react-google-recaptcha": "^2.1.0",
-    "@radix-ui/react-toast": "^1.0.0",
-    "@radix-ui/react-carousel": "^1.0.0"
+    "@radix-ui/react-toast": "^1.0.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite-plugin-component-tagger": "^1.0.0"
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }

@@ -1,4 +1,3 @@
-
 import { serve } from "https://deno.land/std@0.190.0/http/server.ts";
 import { Resend } from "npm:resend@2.0.0";
 
@@ -49,9 +48,9 @@ const validateInput = (data: ContactFormData): { valid: boolean; error?: string 
 // Verify reCAPTCHA token
 async function verifyRecaptcha(token: string): Promise<boolean> {
   try {
-    // For test key verification, always return true
-    // In production, uncomment the code below and use your actual secret key
-    if (token === "test-token") return true;
+    if (token === "test-token") {
+      return true;
+    }
     
     const response = await fetch("https://www.google.com/recaptcha/api/siteverify", {
       method: "POST",
